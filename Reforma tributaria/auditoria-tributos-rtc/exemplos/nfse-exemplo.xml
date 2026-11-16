@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- NFS-e fictícia para teste da skill (leiaute Nacional, campos usados pelo gerador de DANFSe). -->
+<NFSe xmlns="http://www.sped.fazenda.gov.br/nfse" versao="1.01">
+  <infNFSe Id="NFS00000000000000000000000000000000000000000000000001">
+    <nNFSe>123</nNFSe>
+    <emit><CNPJ>00000000000191</CNPJ><xNome>CONSTRUTORA EXEMPLO LTDA</xNome></emit>
+    <valores><vBC>10000.00</vBC><pAliqAplic>5.00</pAliqAplic><vISSQN>500.00</vISSQN><vLiq>9135.00</vLiq></valores>
+    <IBSCBS>
+      <cLocalidadeIncid>3550308</cLocalidadeIncid>
+      <valores>
+        <vBC>9135.00</vBC>
+        <uf><pIBSUF>0.10</pIBSUF><pRedAliqUF>60.00</pRedAliqUF><pAliqEfetUF>0.04</pAliqEfetUF></uf>
+        <mun><pIBSMun>0.00</pIBSMun><pRedAliqMun>60.00</pRedAliqMun><pAliqEfetMun>0.00</pAliqEfetMun></mun>
+        <fed><pCBS>0.90</pCBS><pRedAliqCBS>60.00</pRedAliqCBS><pAliqEfetCBS>0.36</pAliqEfetCBS></fed>
+      </valores>
+      <totCIBS>
+        <vTotNF>9221.44</vTotNF>
+        <gIBS><vIBSTot>3.65</vIBSTot><gIBSUFTot><vIBSUF>3.65</vIBSUF></gIBSUFTot><gIBSMunTot><vIBSMun>0.00</vIBSMun></gIBSMunTot></gIBS>
+        <gCBS><vCBS>82.22</vCBS></gCBS>
+      </totCIBS>
+    </IBSCBS>
+    <DPS>
+      <infDPS Id="DPS1">
+        <dhEmi>2026-11-10T10:00:00-03:00</dhEmi>
+        <dCompet>2026-11-10</dCompet>
+        <prest><regTrib><opSimpNac>1</opSimpNac></regTrib></prest>
+        <serv><cServ><cTribNac>070201</cTribNac><cNBS>101011200</cNBS><xDescServ>Construção de edifício residencial</xDescServ></cServ></serv>
+        <valores>
+          <vServPrest><vServ>10000.00</vServ></vServPrest>
+          <trib><tribFed><piscofins><vPis>65.00</vPis><vCofins>300.00</vCofins></piscofins></tribFed></trib>
+        </valores>
+        <IBSCBS>
+          <cIndOp>020201</cIndOp>
+          <valores><trib><gIBSCBS><CST>200</CST><cClassTrib>200045</cClassTrib></gIBSCBS></trib></valores>
+        </IBSCBS>
+      </infDPS>
+    </DPS>
+  </infNFSe>
+</NFSe>

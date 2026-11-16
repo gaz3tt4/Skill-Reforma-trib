@@ -1,0 +1,57 @@
+{
+  "documento": "NF-e",
+  "tpDoc": 55,
+  "dhFatoGerador": "2027-03-10",
+  "regime": "regular",
+  "itens": [
+    {
+      "numero": 1,
+      "ncm": "10063021",
+      "CST": "200",
+      "cClassTrib": "200003",
+      "declarado": {
+        "vBC": "100.00",
+        "pCBS": "8.80", "pRedCBS": "100.00", "pAliqEfetCBS": "0.00", "vCBS": "0.00",
+        "pIBSUF": "0.05", "pRedIBSUF": "100.00", "pAliqEfetIBSUF": "0.00", "vIBSUF": "0.00",
+        "pIBSMun": "0.05", "pRedIBSMun": "100.00", "pAliqEfetIBSMun": "0.00", "vIBSMun": "0.00",
+        "vIBS": "0.00"
+      }
+    },
+    {
+      "numero": 2,
+      "nbs": "122011200",
+      "CST": "200",
+      "cClassTrib": "200028",
+      "declarado": {
+        "vBC": "1200.00",
+        "pCBS": "8.80", "pRedCBS": "60.00", "pAliqEfetCBS": "3.52", "vCBS": "42.24",
+        "pIBSUF": "0.05", "pRedIBSUF": "60.00", "pAliqEfetIBSUF": "0.02", "vIBSUF": "0.24",
+        "pIBSMun": "0.05", "pRedIBSMun": "60.00", "pAliqEfetIBSMun": "0.02", "vIBSMun": "0.24",
+        "vIBS": "0.48"
+      }
+    },
+    {
+      "numero": 3,
+      "ncm": "02013000",
+      "CST": "200",
+      "cClassTrib": "200035",
+      "declarado": { "vBC": "80.00", "pCBS": "8.80", "vCBS": "7.04" }
+    },
+    {
+      "numero": 4,
+      "ncm": "84713012",
+      "CST": "000",
+      "cClassTrib": "000001",
+      "natureza": "bem",
+      "componentesBase": { "vProd": "1000.00", "vFrete": "50.00", "vDesc": "50.00", "vICMS": "180.00", "vPIS": "6.50" },
+      "declarado": {
+        "vBC": "820.00",
+        "pCBS": "8.80", "vCBS": "73.00",
+        "pIBSUF": "0.05", "vIBSUF": "0.41",
+        "pIBSMun": "0.05", "vIBSMun": "0.41",
+        "vIBS": "0.82"
+      }
+    }
+  ],
+  "totais": { "vBC": "2200.00", "vCBS": "122.28" }
+}

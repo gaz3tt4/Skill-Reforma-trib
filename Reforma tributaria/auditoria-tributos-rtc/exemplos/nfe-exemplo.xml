@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- NF-e fictícia para teste da skill (grupo IBSCBS da NT 2025.002). -->
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe">
+  <NFe><infNFe Id="NFe00000000000000000000000000000000000000000001" versao="4.00">
+    <ide><mod>55</mod><nNF>456</nNF><dhEmi>2026-11-12T09:00:00-03:00</dhEmi></ide>
+    <emit><CNPJ>00000000000191</CNPJ><xNome>DISTRIBUIDORA EXEMPLO LTDA</xNome><CRT>3</CRT></emit>
+    <det nItem="1">
+      <prod><NCM>84713012</NCM><qCom>2</qCom><vProd>1000.00</vProd><vFrete>50.00</vFrete><vDesc>50.00</vDesc></prod>
+      <imposto>
+        <ICMS><ICMS00><vICMS>180.00</vICMS></ICMS00></ICMS>
+        <PIS><PISAliq><vPIS>6.50</vPIS></PISAliq></PIS>
+        <COFINS><COFINSAliq><vCOFINS>30.00</vCOFINS></COFINSAliq></COFINS>
+        <IBSCBS><CST>000</CST><cClassTrib>000001</cClassTrib>
+          <gIBSCBS><vBC>783.50</vBC>
+            <gIBSUF><pIBSUF>0.10</pIBSUF><vIBSUF>0.78</vIBSUF></gIBSUF>
+            <gIBSMun><pIBSMun>0.00</pIBSMun><vIBSMun>0.00</vIBSMun></gIBSMun>
+            <vIBS>0.78</vIBS>
+            <gCBS><pCBS>0.90</pCBS><vCBS>7.05</vCBS></gCBS>
+          </gIBSCBS>
+        </IBSCBS>
+      </imposto>
+    </det>
+    <total><IBSCBSTot><vBCIBSCBS>783.50</vBCIBSCBS><gIBS><gIBSUF><vIBSUF>0.78</vIBSUF></gIBSUF><gIBSMun><vIBSMun>0.00</vIBSMun></gIBSMun><vIBS>0.78</vIBS></gIBS><gCBS><vCBS>7.05</vCBS></gCBS></IBSCBSTot></total>
+  </infNFe></NFe>
+</nfeProc>
